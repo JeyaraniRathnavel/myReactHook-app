@@ -3,10 +3,12 @@ import React, { useEffect, useRef } from "react";
 function FocusInput() {
   const inputRef = useRef(null);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
   return (
     <div>
-      <input type="text" />
+      <input ref={inputRef} type="text" />
     </div>
   );
 }
