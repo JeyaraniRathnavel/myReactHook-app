@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import FocusInput from "./FocusInput";
+// import DocTitleOne from "./components/DocTitleOne";
+// import DocTitleTwo from "./components/DocTitleTwo";
+
+// import ClassTimer from "./components/ClassTimer";
+// import HookTimer from "./components/HookTimer";
+// import FocusInput from "./components/FocusInput";
 // import Counter from "./components/Counter";
 // import CounterThree from "./components/CounterThree";
 // import DataFetchingOne from "./components/DataFetchingOne";
@@ -36,7 +41,11 @@ function App() {
       {/* <DataFetchingTwo /> */}
       {/* <ParentComponent /> */}
       {/* <Counter /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      {/* <ClassTimer /> */}
+      {/* <HookTimer /> */}
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
     </div>
   );
 }
